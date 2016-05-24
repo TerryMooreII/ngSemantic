@@ -25,7 +25,7 @@ import { AccordionComponent } from "./elements/accordion";
 		templateUrl: "./app/components/app.html"
 })
 @Routes([
-	{ component: HomeComponent, path: "/", useAsDefault: true },
+	{ component: HomeComponent, path: "/" },
 	{ component: LoaderComponent, path: "/elements/loader" },
 	{ component: AccordionComponent, path: "/elements/accordion" },
 	{ component: ListComponent, path: "/elements/list" },
