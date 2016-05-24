@@ -1,4 +1,4 @@
-import { Component } from "angular2/core";
+import { Component } from "@angular/core";
 import { SEMANTIC_COMPONENTS, SEMANTIC_DIRECTIVES } from "ng-semantic";
 import { Codeblock } from "ng2-prism/codeblock";
 import { Markup, Typescript, Bash } from "ng2-prism/languages";
@@ -52,7 +52,7 @@ src=&quot;https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.
     <h2 class="header">Use</h2>
     <sm-segment class="raised">
        <codeblock typescript>
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import { SEMANTIC_COMPONENTS, SEMANTIC_DIRECTIVES } from "ng-semantic";
 
 @Component({

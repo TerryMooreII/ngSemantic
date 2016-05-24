@@ -1,5 +1,5 @@
-import { Component, AfterViewInit } from "angular2/core";
-import { ROUTER_DIRECTIVES, RouteConfig } from "angular2/router";
+import { Component, AfterViewInit } from "@angular/core";
+import { ROUTER_DIRECTIVES, Routes } from "@angular/router";
 
 import { HomeComponent } from "./home/home";
 import { LoaderComponent } from "./elements/loader";
@@ -24,7 +24,7 @@ import { AccordionComponent } from "./elements/accordion";
         selector: "app",
 		templateUrl: "./app/components/app.html"
 })
-@RouteConfig([
+@Routes([
 	{ component: HomeComponent, path: "/", useAsDefault: true },
 	{ component: LoaderComponent, path: "/elements/loader" },
 	{ component: AccordionComponent, path: "/elements/accordion" },

@@ -1,4 +1,4 @@
-import { EventEmitter } from "angular2/core";
+import { EventEmitter } from "@angular/core";
 
 export class MessageService {
 	_emitter: EventEmitter<any> = new EventEmitter<any>();

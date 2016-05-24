@@ -1,5 +1,5 @@
-import { Component } from "angular2/core";
-import { Control, Validators, ControlGroup, FormBuilder } from "angular2/common";
+import { Component } from "@angular/core";
+import { Control, Validators, ControlGroup, FormBuilder } from "@angular/common";
 import { SEMANTIC_COMPONENTS, SEMANTIC_DIRECTIVES } from "ng-semantic";
 import { Codeblock } from "ng2-prism/codeblock";
 import { Markup } from "ng2-prism/languages";

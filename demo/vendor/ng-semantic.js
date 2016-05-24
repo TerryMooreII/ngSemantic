@@ -1,4 +1,4 @@
-System.registerDynamic("ng-semantic/menu/menu", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/menu/menu", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -20,11 +20,12 @@ System.registerDynamic("ng-semantic/menu/menu", ["angular2/core"], true, functio
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
+  var core_2 = $__require('@angular/core');
   var SemanticMenu = (function() {
     function SemanticMenu() {}
     __decorate([core_1.Input("logo"), __metadata('design:type', String)], SemanticMenu.prototype, "logo", void 0);
-    SemanticMenu = __decorate([core_1.Component({
+    SemanticMenu = __decorate([core_2.Component({
       changeDetection: core_1.ChangeDetectionStrategy.OnPush,
       selector: "sm-menu",
       template: "\n<a href=\"#/\" *ngIf=\"logo\" class=\"header item\">\n    <img class=\"logo\" alt=\"{{title}}\" src=\"{{logo}}\">\n</a>\n\n<ng-content></ng-content>\n"
@@ -35,7 +36,7 @@ System.registerDynamic("ng-semantic/menu/menu", ["angular2/core"], true, functio
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/message/message", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/message/message", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -57,7 +58,7 @@ System.registerDynamic("ng-semantic/message/message", ["angular2/core"], true, f
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticMessage = (function() {
     function SemanticMessage() {}
     __decorate([core_1.Input("icon"), __metadata('design:type', String)], SemanticMessage.prototype, "icon", void 0);
@@ -74,7 +75,7 @@ System.registerDynamic("ng-semantic/message/message", ["angular2/core"], true, f
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/popup/tooltip", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/popup/tooltip", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -96,7 +97,7 @@ System.registerDynamic("ng-semantic/popup/tooltip", ["angular2/core"], true, fun
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SMTooltipDirective = (function() {
     function SMTooltipDirective(element) {
       this.element = element;
@@ -123,7 +124,7 @@ System.registerDynamic("ng-semantic/popup/tooltip", ["angular2/core"], true, fun
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/popup/popup", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/popup/popup", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -145,7 +146,7 @@ System.registerDynamic("ng-semantic/popup/popup", ["angular2/core"], true, funct
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SMPopupDirective = (function() {
     function SMPopupDirective(element) {
       this.element = element;
@@ -190,7 +191,7 @@ System.registerDynamic("ng-semantic/popup/popup", ["angular2/core"], true, funct
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/modal/modal", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/modal/modal", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -212,7 +213,7 @@ System.registerDynamic("ng-semantic/modal/modal", ["angular2/core"], true, funct
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SMModalDirective = (function() {
     function SMModalDirective() {}
     SMModalDirective.prototype.onClick = function() {
@@ -250,7 +251,7 @@ System.registerDynamic("ng-semantic/modal/modal", ["angular2/core"], true, funct
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/segment/segment", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/segment/segment", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -272,7 +273,7 @@ System.registerDynamic("ng-semantic/segment/segment", ["angular2/core"], true, f
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticSegment = (function() {
     function SemanticSegment() {}
     __decorate([core_1.Input("class"), __metadata('design:type', String)], SemanticSegment.prototype, "class", void 0);
@@ -287,7 +288,7 @@ System.registerDynamic("ng-semantic/segment/segment", ["angular2/core"], true, f
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/list/list", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/list/list", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -309,7 +310,7 @@ System.registerDynamic("ng-semantic/list/list", ["angular2/core"], true, functio
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticList = (function() {
     function SemanticList() {}
     SemanticList = __decorate([core_1.Component({
@@ -325,7 +326,7 @@ System.registerDynamic("ng-semantic/list/list", ["angular2/core"], true, functio
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/button/button", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/button/button", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -347,7 +348,7 @@ System.registerDynamic("ng-semantic/button/button", ["angular2/core"], true, fun
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticButton = (function() {
     function SemanticButton() {
       this.disabled = false;
@@ -366,7 +367,7 @@ System.registerDynamic("ng-semantic/button/button", ["angular2/core"], true, fun
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/item/item", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/item/item", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -388,7 +389,7 @@ System.registerDynamic("ng-semantic/item/item", ["angular2/core"], true, functio
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticItem = (function() {
     function SemanticItem() {}
     __decorate([core_1.Input("icon"), __metadata('design:type', String)], SemanticItem.prototype, "icon", void 0);
@@ -405,7 +406,7 @@ System.registerDynamic("ng-semantic/item/item", ["angular2/core"], true, functio
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/loader/loader", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/loader/loader", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -427,7 +428,7 @@ System.registerDynamic("ng-semantic/loader/loader", ["angular2/core"], true, fun
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticLoader = (function() {
     function SemanticLoader() {
       this.complete = false;
@@ -446,7 +447,7 @@ System.registerDynamic("ng-semantic/loader/loader", ["angular2/core"], true, fun
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/card/card", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/card/card", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -468,7 +469,7 @@ System.registerDynamic("ng-semantic/card/card", ["angular2/core"], true, functio
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticCard = (function() {
     function SemanticCard() {}
     __decorate([core_1.Input("image"), __metadata('design:type', String)], SemanticCard.prototype, "image", void 0);
@@ -485,7 +486,7 @@ System.registerDynamic("ng-semantic/card/card", ["angular2/core"], true, functio
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/input/input", ["angular2/core", "angular2/common"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/input/input", ["@angular/core", "@angular/common"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -507,8 +508,8 @@ System.registerDynamic("ng-semantic/input/input", ["angular2/core", "angular2/co
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
-  var common_1 = $__require('angular2/common');
+  var core_1 = $__require('@angular/core');
+  var common_1 = $__require('@angular/common');
   var SemanticInput = (function() {
     function SemanticInput() {}
     __decorate([core_1.Input("control"), __metadata('design:type', common_1.Control)], SemanticInput.prototype, "control", void 0);
@@ -561,7 +562,7 @@ System.registerDynamic("ng-semantic/input/input", ["angular2/core", "angular2/co
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/sidebar/sidebar", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/sidebar/sidebar", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -583,7 +584,7 @@ System.registerDynamic("ng-semantic/sidebar/sidebar", ["angular2/core"], true, f
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   jQuery.fn.fixSidebar = function() {
     var allModules = jQuery(this);
     allModules.each(function() {
@@ -630,7 +631,7 @@ System.registerDynamic("ng-semantic/sidebar/sidebar", ["angular2/core"], true, f
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/tab/tab", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/tab/tab", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -657,7 +658,7 @@ System.registerDynamic("ng-semantic/tab/tab", ["angular2/core"], true, function(
       decorator(target, key, paramIndex);
     };
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticTab = (function() {
     function SemanticTab() {}
     __decorate([core_1.Input("tab"), __metadata('design:type', String)], SemanticTab.prototype, "dataTab", void 0);
@@ -695,7 +696,7 @@ System.registerDynamic("ng-semantic/tab/tab", ["angular2/core"], true, function(
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/flag/flag", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/flag/flag", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -717,7 +718,7 @@ System.registerDynamic("ng-semantic/flag/flag", ["angular2/core"], true, functio
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticFlag = (function() {
     function SemanticFlag() {}
     __decorate([core_1.Input('flag'), __metadata('design:type', String)], SemanticFlag.prototype, "flag", void 0);
@@ -732,7 +733,7 @@ System.registerDynamic("ng-semantic/flag/flag", ["angular2/core"], true, functio
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/progress/progress", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/progress/progress", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -754,7 +755,7 @@ System.registerDynamic("ng-semantic/progress/progress", ["angular2/core"], true,
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticProgress = (function() {
     function SemanticProgress() {
       this._progress = 0;
@@ -780,7 +781,7 @@ System.registerDynamic("ng-semantic/progress/progress", ["angular2/core"], true,
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/dimmer/dimmer", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/dimmer/dimmer", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -802,7 +803,7 @@ System.registerDynamic("ng-semantic/dimmer/dimmer", ["angular2/core"], true, fun
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SemanticDimmer = (function() {
     function SemanticDimmer() {}
     __decorate([core_1.Input("selector"), __metadata('design:type', String)], SemanticDimmer.prototype, "selector", void 0);
@@ -834,7 +835,7 @@ System.registerDynamic("ng-semantic/dimmer/dimmer", ["angular2/core"], true, fun
   return module.exports;
 });
 
-System.registerDynamic("ng-semantic/accordion/accordion", ["angular2/core"], true, function($__require, exports, module) {
+System.registerDynamic("ng-semantic/accordion/accordion", ["@angular/core"], true, function($__require, exports, module) {
   "use strict";
   ;
   var define,
@@ -856,7 +857,7 @@ System.registerDynamic("ng-semantic/accordion/accordion", ["angular2/core"], tru
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
       return Reflect.metadata(k, v);
   };
-  var core_1 = $__require('angular2/core');
+  var core_1 = $__require('@angular/core');
   var SMAccordionDirective = (function() {
     function SMAccordionDirective(element) {
       this.element = element;

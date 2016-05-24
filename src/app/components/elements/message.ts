@@ -1,4 +1,4 @@
-import { Component } from "angular2/core";
+import { Component } from "@angular/core";
 import { SEMANTIC_COMPONENTS, SEMANTIC_DIRECTIVES } from "ng-semantic";
 import { MessageService } from "../../services/message";
 import { Codeblock } from "ng2-prism/codeblock";

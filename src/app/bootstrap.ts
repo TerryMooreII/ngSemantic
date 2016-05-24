@@ -1,10 +1,11 @@
 /// <reference path="../../typings/main.d.ts"/>
-import { bootstrap } from "angular2/platform/browser";
-import { provide } from "angular2/core";
-import { ROUTER_PROVIDERS, LocationStrategy, HashLocationStrategy } from "angular2/router";
-import { HTTP_PROVIDERS } from "angular2/http";
 
+import { provide } from "@angular/core";
+import { HTTP_PROVIDERS } from "@angular/http";
 import { AppComponent } from "./components/app";
+import {ROUTER_PROVIDERS} from "@angular/router";
+import {LocationStrategy, HashLocationStrategy} from "@angular/common";
+import {bootstrap} from "@angular/platform-browser-dynamic";
 
 bootstrap(AppComponent, [
 	HTTP_PROVIDERS,

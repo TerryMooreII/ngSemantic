@@ -1,4 +1,5 @@
-import { Component, Input, ChangeDetectionStrategy } from "angular2/core";
+import {  Input, ChangeDetectionStrategy } from "@angular/core";
+import {Component} from "@angular/core";
 
 /**
  * Implementation of Menu component
@@ -16,7 +17,7 @@ import { Component, Input, ChangeDetectionStrategy } from "angular2/core";
 
 <ng-content></ng-content>
 `
-})
+})  
 export class SemanticMenu {
     @Input("logo") logo: string;
 }
